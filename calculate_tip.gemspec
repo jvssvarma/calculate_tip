@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jampana.varma49@gmail.com"]
 
   spec.summary       = %q{A gem for generating tip values.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/jvssvarma/calculate_tip"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
