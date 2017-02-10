@@ -21,10 +21,11 @@ Or install it yourself as:
     $ gem install calculate_tip
 
 ## Usage
+```ruby
 CalculateTip::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
 CalculateTip::Builder.new(total: 100, gratuity: 'high').generate # 125.0
 CalculateTip::Builder.new(total: 100, gratuity: 20).generate # 120.0
-
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
